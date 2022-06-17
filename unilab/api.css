@@ -1,0 +1,161 @@
+body {
+    font-family: Helvetica;
+    font-size: 16px; 
+    background-color: black;
+    /* overflow: hidden; */
+     
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+.main{ 
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    height: 100vh;
+}
+.inp_div{
+    width: 90%;
+} 
+.for_card{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+#results{
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     margin: 0 auto;
+}
+.card{
+    margin: 10px;
+    height: 250px;
+    color: green;
+    background-color: rgba(50, 50, 50, 0.9);
+} 
+section{
+    position: fixed;  
+    width: 100%;
+    z-index: -1;
+}
+span{
+    position:absolute;
+    pointer-events: none;
+    background-color: green;
+    animation: animate 5s linear infinite;
+    z-index: -1;
+    opacity: 0.8;
+}
+.mother{
+    height: auto;
+}
+#search{
+    margin-top: 20px;
+    background-color: rgba(48, 45, 45, 0.8);
+    border: none;
+}
+@keyframes animate{
+    0%{
+        transform: scale(0) translateY(0) rotate(0deg);
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1) translateY(-500%) rotate(360deg);
+        opacity: 0;
+    }
+}
+.page{
+    background: black;
+    border: 1px solid green;
+    color: green;
+    cursor: pointer !important;
+} 
+.page:hover{
+    background-color: black;
+    border: 1px solid green;
+    color: green;
+}
+.pagination_nav{
+    bottom: 0 !important;
+    display: block;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.navv{
+    background-color: black;
+    
+}
+.nav_item{
+    cursor: pointer !important;
+    margin-left: 3.8%;
+    color: green !important;
+}
+
+@media screen and (max-width:375px){
+    .pagination{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .card{
+        margin: 0 !important;
+        margin-top: 10px !important;
+        width: 90% !important;
+        margin: 10px auto !important;
+    }
+    .bod{
+        font-size: 12px !important;
+    }
+    
+    .card h5,h6{
+        margin-bottom: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

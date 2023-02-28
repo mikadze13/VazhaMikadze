@@ -19,7 +19,7 @@ Simple markup and connection to the back end
 - CSS
 - Javascript
 
-## Authors
+## Author
  
 - LinkedIn - [@Vazha Mikadze](https://www.linkedin.com/in/vazha-mikadze-50b8a5237/) 
 

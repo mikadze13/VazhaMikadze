@@ -8,7 +8,7 @@ Simple markup and connection to the back end
     
 ## Screenshots
 
-![App Screenshot](https://i.paste.pics/0c8de805413ea57c6983c7e696585a92.png)
+![App Screenshot](./unilab/assets/images/unilabScreenshot.png)
 
 ## Links
 - Live site URL - [Live site](https://vazha-mikadzeunilab.vercel.app)

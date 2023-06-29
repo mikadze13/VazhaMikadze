@@ -91,7 +91,7 @@ li {
 .photo {
     width: 840px;
     height: 100%;
-    background-image: url(images/mountain1x.png);
+    background-image: url(./assets/images/mountain1x.png);
     object-fit: cover;
     background-size: cover;
     display: flex;
@@ -315,7 +315,7 @@ li {
     
 } */
 .happening_left_item {
-    background-image: url(images/bridge.png);
+    background-image: url(./assets/images/bridge.png);
     width: 760px;
     height: 430px;
     object-fit: cover;
@@ -327,7 +327,7 @@ li {
 
 .happening_left_item1 {
     margin-top: 40px;
-    background-image: url(images/Image1x.png);
+    background-image: url(./assets/images/Image1x.png);
     width: 760px;
     height: 430px;
     /* object-fit: cover;
@@ -364,7 +364,7 @@ li {
     width: 90%;
     height: 90%;
 
-    /* background-image: url(images/bridge.png); */
+    /* background-image: url(./assets/images/bridge.png); */
     background-size: cover;
     object-fit: cover;
     display: flex;
